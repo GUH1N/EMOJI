@@ -1,0 +1,166 @@
+#Face{
+    position: relative;
+    border: 2px solid yellow;
+    background-color: rgb(242, 205, 24);
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    top: 250px;
+}
+#eye1{
+    position: absolute;
+    border: 2px solid yellow;
+    background-color: white;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    top: 20px;
+    left: 10px;
+}
+#eye2{
+    position: absolute;
+    border: 2px solid yellow;
+    background-color: white;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    top: 20px;
+    left: 60px;
+}
+#Ear1{
+    position: absolute;
+    border-right: 40px solid transparent;
+    border-bottom: 40px solid yellow;
+    top: -40px;
+    left: -1px;
+}
+#Ear1_1{
+    position: absolute;
+    border-right: 30px solid transparent;
+    border-bottom: 30px solid rgb(242, 205, 24);
+    left: 2.5px;
+    top: 5px;
+}
+#Ear2{
+    position: absolute;
+    border-left: 40px solid transparent;
+    border-bottom: 40px solid yellow;
+    top: -40px;
+    left: 60px;
+}
+#Ear2_2{
+    position: absolute;
+    border-left: 30px solid transparent;
+    border-bottom: 30px solid rgb(242, 205, 24);
+    left: -32px;
+    top: 5px;
+}
+#nose{
+    position: absolute;
+    width: 0;
+    height: 0;
+    border: 9px solid transparent;
+    border-top: 10px solid red;
+    border-bottom: 0;
+    top: 53px;
+    left: 40px;
+}
+#Mouth{
+    position: absolute;
+    border: 2px solid brown;
+    background-color: brown;
+    width: 10px;
+    height: 15px;
+    top: 73px;
+    left: 44px;
+    border-radius: 10px;
+}
+#Hands1{
+    position: absolute;
+    border: 2px solid yellow;
+    background-color: rgb(242, 205, 24);
+    width: 30px;
+    height: 50px;
+    top: 70px;
+    border-radius: 40% 40% 0% 0%;
+}
+#line1{
+    position: absolute;
+    border: 1px solid brown;
+    background-color: brown;
+    height: 15px;
+    left: 6px;
+    top: 1px;
+    border-radius: 40%;
+}
+#line2{
+    position: absolute;
+    border: 1px solid brown;
+    background-color: brown;
+    height: 15px;
+    left: 16px;
+    top: 1px;
+    border-radius: 40%;
+}
+#Hands2{
+    position: absolute;
+    border: 2px solid yellow;
+    background-color: rgb(242, 205, 24);
+    width: 30px;
+    height: 50px;
+    top: 70px;
+    border-radius: 40% 40% 0% 0%;
+    left: 70px;
+}
+#line3{
+    position: absolute;
+    border: 1px solid brown;
+    background-color: brown;
+    height: 15px;
+    left: 6px;
+    top: 1px;
+    border-radius: 40%;
+}
+#line4{
+    position: absolute;
+    border: 1px solid brown;
+    background-color: brown;
+    height: 15px;
+    left: 16px;
+    top: 1px;
+    border-radius: 40%;
+}
+#hair1{
+    position: absolute;
+    border: 1px solid black;
+    background-color: black;
+    width: 40px;
+    top: 60px;
+    left: -25px;
+}
+#hair2{
+    position: absolute;
+    border: 1px solid black;
+    background-color: black;
+    width: 40px;
+    top: 60px;
+    left: 80px;
+}
+#hair3{
+    position: absolute;
+    border: 1px solid black;
+    background-color: black;
+    width: 40px;
+    top: 75px;
+    left: -25px;
+    z-index: -1;
+}
+#hair4{
+    position: absolute;
+    border: 1px solid black;
+    background-color: black;
+    width: 40px;
+    top: 70px;
+    left: 80px;
+    z-index: -1;
+}
